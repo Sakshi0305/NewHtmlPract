@@ -1,0 +1,111 @@
+section {
+background-image: url("https://media.istockphoto.com/id/1316145932/photo/table-top-view-of-spicy-food.jpg?s=1024x1024&w=is&k=20&c=VaRsD5pHXDCMcwcAsOGaaBadptx0nHaJUuVKpyWaq3A=");
+display: no-repeat;
+background-size: cover;
+height: 600px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+
+    
+}
+.headerlink {
+    color: white;
+    padding: 0.8rem, 0.8rem, 0.8rem, 0.8rem;
+    margin-right: 12px;
+    font-size: 1.8rem;
+    text-align: right;
+    text-decoration: none;
+    line-height: 1.5;
+    font-weight: 300;
+    cursor: pointer;
+    vertical-align: middle;
+    background: transparent;
+    
+}
+
+.headercontent {
+    display: flex;
+    flex-direction: row;
+    padding-right: 12px;
+    list-style-type: none;
+    font: 18px;
+}
+
+div.mainbody {
+    text-align: center;
+}
+
+#logo {
+   font-size: 100px;
+   font-weight: 2100;
+   font-family: Tahoma, Verdana, sans-serif;
+   color: white;
+   margin-bottom: 3rem;
+   text-align: center;
+   padding-top: 20px;
+}
+
+#capline {
+   color: white; 
+   font-size: 28px;
+   font-family: Okra, Helvetica, sans-serif;
+   display: flex;
+   justify-items: center;
+   padding-bottom: 100px;
+   font-weight: lighter;
+   text-align: center;
+   background: transparent;
+   font-style: oblique;
+}
+
+h2 {
+    font-size: 2.8rem;
+    color: rgb(28,28,28);
+    font-weight: lighter;
+    text-align: center;
+}
+
+p {
+    
+    display:block;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding-right: 210px;
+    padding-left: 210px;
+    font-size: 1.5rem;
+    line-height: 150%;
+    color: rgb(66, 61, 61);
+
+}
+
+.restoBox {
+    border:  1px;
+    border-color: rgb(94, 60, 60);
+    color: rgb(47, 39, 39);
+    text-decoration: none;
+    border: 5px;
+    border-color: black;
+    }
+
+.restoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+hr {
+    height: 2px;
+    color: rgb(62, 47, 47);
+}
+
+footer {
+    text-align: center;
+}
